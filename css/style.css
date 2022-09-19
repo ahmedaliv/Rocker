@@ -68,9 +68,11 @@
  a {
     text-decoration: none;
  }
- a:visited{
-    color:inherit;
- }
+ header .header-content .dropdown a:visited {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 /* 3- Sections */
 
@@ -136,7 +138,7 @@ text-align: right;
     width:93%;
     height:100%;
     transform:scale3d(1,0,1);
-    transition: transform 0.8ss;
+    transition: transform 1s;
 }
 
 .header-content nav ul li .link-item:after {
